@@ -26,7 +26,7 @@
 <body>
     <header id="header">
         <!-- Topbar Start -->
-        <div class="header-top bg-gray-900 py-2">
+        <div class="header-top bg-dark-200 py-2">
             <div class="container">
                 <div class="row py-2">
                     <div class="col-lg-6 d-none d-lg-block">
@@ -62,12 +62,12 @@
         </div>
         <!-- Topbar End -->
 
-        <div class="header-inner py-4 bg-gray-900">
+        <div class="header-inner py-4 bg-white">
             <div class="container">
                 <div class="row align-items-center py-3">
                     <div class="col-lg-3 d-none d-lg-block">
                         <a href="" class="text-decoration-none">
-                            <h2 class="m-0 display-5 font-weight-semi-bold" style="height: 134px;"><img src="img/logo_webproject (1).png" alt=""></h2>
+                            <img src="img/logo_webproject (1).png" style="width: 200px; height: 140px;" alt="">
                         </a>
                     </div>
                     <div class="col-lg-6 col-12 text-left search-inner">
@@ -75,7 +75,7 @@
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search for products">
                                 <div class="input-group-append">
-                                    <span class="input-group-text bg-primary text-light">
+                                    <span class="input-group-text bg-info text-light">
                                         <i class="fa fa-search"></i>
                                     </span>
                                 </div>
@@ -94,12 +94,8 @@
                     </div>
                     <div class="col-lg-3 col-12 d-flex align-items-center justify-content-lg-end justify-content-sm-between">
                         <a href="" class="btn" style="font-size: 20px">
-                            <i class="fas fa-heart text-primary"></i>
-                            <span class="badge text-light">0</span>
-                        </a>
-                        <a href="" class="btn" style="font-size: 20px">
-                            <i class="fas fa-shopping-cart text-primary"></i>
-                            <span class="badge sum-cart text-light">0</span>
+                            <i class="fas fa-shopping-cart "></i>
+                            <span class="badge sum-cart">0</span>
                         </a>
                     </div>
                 </div>
@@ -108,11 +104,11 @@
 
 
         <!-- Navbar Start -->
-        <div class="header-nav bg-gray-900">
+        <div class="header-nav bg-info">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <nav class="navbar navbar-expand-lg bg-gray-900 navbar-light py-3 py-lg-0 px-0">
+                        <nav class="navbar navbar-expand-lg bg-info navbar-light py-3 py-lg-0 px-0">
                             <a href="" class="text-decoration-none d-block d-lg-none">
                                 <h2 class="m-0 display-5 font-weight-semi-bold"><img src="img/logo_webproject (1).png" alt=""></h2>
                             </a>
@@ -136,64 +132,32 @@
         <!-- Navbar End -->
     </header>
 
-    <div class="slider-main bg-dark-200 mt-0 pt-5 pb-5">
+    <div class="slider-main bg-gray mt-0 ">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 p-0">
-                    <div id="header-slider" class="slick slide w-100">
-                        <div class="slider-inner position-relative">
-                            <div class="slider-item d-flex justify-content-between">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <div class="p-3" style="max-width: 700px;">
-                                        <h4 class="text-primary font-weight-bolder text-uppercase font-weight-medium mb-3">Watch shop</h4>
-                                        <h3 class="display-4 text-white font-weight-semi-bold mb-4">Classic watches</h3>
-                                        <p class="text-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                        <a href="" class="btn btn-outline-primary--light rounded-sm py-2 px-3">Shop now</a>
-                                    </div>
-                                </div>
-                                <!-- <img class="img-fluid position-absolute" style="top: -48px; right: 48px;" src="img/luxury-watch-6c24a59ca8-removebg-preview.png" alt="Image"> -->
-                            </div>
-
-                            
-                                                    </div>
-                    </div>
-                </div>
+            <div class="banner-main">
+                <img id="banner" style="width: 1200px; height: 340px" src="img/banner1.jpg" alt="">
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        window.onload = function(){
+            setTimeout("switch_Image()",3000);
+        }
 
-    <!-- Offer Start -->
-    <div class="container offer pt-5">
-        <div class="row">
-            <div class="col-md-6 pb-4">
-                <div class="offer-item position-relative bg-dark-200 text-center text-md-right text-white mb-2 py-5 px-5">
-                    <img src="img/titoni-83919-s-612-nam-1-600x600-removebg-preview.png" alt="">
-                    <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-light mb-3">20% off the all order</h5>
-                        <h1 class="mb-4 text-light font-weight-semi-bold">CLASSIC</h1>
-                        <a href="" class="btn btn-outline-primary--light py-md-2 px-md-3">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 pb-4">
-                <div class="offer-item position-relative bg-dark-200 text-center text-md-left text-white mb-2 py-5 px-5">
-                    <img src="img/61TzjMeU3mS._AC_SL1500_-removebg-preview.png" alt="">
-                    <div class="position-relative" style="z-index: 1;">
-                        <h5 class="text-uppercase text-light mb-3">20% off the all order</h5>
-                        <h1 class="mb-4 text-light font-weight-semi-bold">MODERN</h1>
-                        <a href="" class="btn btn-outline-primary--light py-md-2 px-md-3">Shop Now</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Offer End -->
-
-
-    <!-- Products Start -->
-    
-    <!-- Products End -->
-
+        var current = 1;
+        var num_image = 3;
+        function switch_Image(){
+            current++;
+            document.images['banner'].src='img/banner'+current+'.jpg';
+            if (current < num_image){
+                setTimeout("switch_Image()",2000);
+            } else
+                if (current == num_image){
+                    current = 0;
+                    setTimeout("switch_Image()",2000);
+                }
+        }
+    </script>
 
     <!-- Subscribe Start -->
     <div class="subcribe bg-gray-900">
@@ -213,16 +177,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="9">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/titoni-83919-s-612-nam-1-600x600-removebg-preview.png" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product1_600x600.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
-                            <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6 class="product-price">$123.00</h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -231,16 +195,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="10">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/frederique-constant-fc-318mpwn3b4-nu-300x300.jpg" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product2_600x600.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
-                            <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6 class="product-price">$123.00</h6></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -249,16 +213,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="11">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/titoni-818-s-656-nu-1-600x600.jpg" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product3_600x600.png" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
                             <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -267,16 +231,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="12">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/titoni-878-srg-657-nam-1-600x600.jpg" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product4_600x600.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
-                            <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6 class="product-price">$123.00</h6></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -285,16 +249,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="13">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/titoni-83919-s-612-nam-1-600x600-removebg-preview.png" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product1_600x600.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
-                            <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6 class="product-price">$123.00</h6></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -303,16 +267,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="14">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/frederique-constant-fc-318mpwn3b4-nu-300x300.jpg" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product2_600x600.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
                             <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -321,16 +285,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="15">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/titoni-818-s-656-nu-1-600x600.jpg" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product3_600x600.png" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
-                            <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <h6 class="product-price">$123.00</h6></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -339,16 +303,16 @@
             <div class="col-lg-3 col-md-6 col-sm-12 pb-1">
                 <div class="card product-item border-0 mb-4" data-index="16">
                     <div class="card-header product-img position-relative overflow-hidden bg-transparent border p-0">
-                        <img class="product-thumbnail img-fluid w-100" src="img/titoni-878-srg-657-nam-1-600x600.jpg" alt="">
+                        <img class="product-thumbnail img-fluid w-100" src="img/product4_600x600.jpg" alt="">
                     </div>
                     <div class="card-body border-left border-right text-center p-0 pt-4 pb-3">
-                        <h6 class="product-name text-truncate mb-3">Titoni watch 40 mm 83919 S-612 </h6>
+                        <h6 class="product-name text-truncate mb-3">Sản phẩm tai nghe </h6>
                         <div class="d-flex justify-content-center">
                             <h6 class="product-price">$123.00</h6><h6 class="text-muted ml-2"><del>$123.00</del></h6>
                         </div>
                     </div>
                     <div class="card-footer d-flex justify-content-between bg-light border">
-                        <a href="" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
+                        <a href="detail.html" class="btn btn-sm text-dark p-0"><i class="fas fa-eye text-primary mr-1"></i>View Detail</a>
                         <a type="button" class="btn btn-sm btn-add-cart text-dark p-0"><i class="fas fa-shopping-cart text-primary mr-1"></i>Add to cart</a>
                     </div>
                 </div>
@@ -357,14 +321,20 @@
     </div>
     <!-- Products End -->
 
-
-    <!-- Vendor Start -->
+    <div class="container py-5">
+        <div class="row ">
+            <div class="col">
+                <img class="col-item border" src="img/thuong_hieu_1.png" alt="">
+                <img class="col-item border" src="img/thuong_hieu_2.png" alt="">
+                <img class="col-item border" src="img/thuong_hieu_3.png" alt="">
+                <img class="col-item border" src="img/thuong_hieu_4.jpg" alt="">
+                <img class="col-item border" src="img/thuong_hieu_5.jpg" alt="">
+            </div>
+        </div>
+    </div>
     
-    <!-- Vendor End -->
-
-
     <!-- Footer Start -->
-    <div class="footer bg-gray-900">
+    <div class="footer bg-info">
         <div class="container text-light mt-5 pt-5">
             <div class="row  pt-5">
                 <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
@@ -390,7 +360,7 @@
                                 <a class="text-light mb-2" href="detail.html"><i class="fa fa-angle-right mr-2"></i>Shop Detail</a>
                                 <a class="text-light mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Shopping Cart</a>
                                 <a class="text-light mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Checkout</a>
-                            </div>
+                            </div>u
                         </div>
                         <div class="col-md-4 mb-5">
                             <h5 class="font-weight-bold text-light mb-4">Quick Links</h5>
@@ -434,44 +404,4 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
-
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
 <div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe></body><div style="position: absolute; top: 0px; display: block !important;"></div></html>
